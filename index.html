@@ -1,4 +1,276 @@
-<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinmiloluwa Ayoola | AI Video Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .glass {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 selection:bg-purple-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tighter bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+                SA.EDIT
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#home" class="hover:text-purple-400 transition-colors">Home</a>
+                <a href="#work" class="hover:text-purple-400 transition-colors">Work</a>
+                <a href="#contact" class="hover:text-purple-400 transition-colors">Contact</a>
+            </div>
+            <a href="mailto:ayoola.sinmiloluwa@gmail.com" class="bg-purple-600 hover:bg-purple-700 px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-lg shadow-purple-500/20">
+                Hire Me
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-purple-900/20 blur-[120px] rounded-full -z-10"></div>
+        <div class="max-w-6xl mx-auto px-6 text-center animate-fade-in">
+            <h1 class="text-5xl md:text-8xl font-black mb-6 tracking-tight">
+                Revolutionizing Video <br />
+                <span class="bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-500 bg-clip-text text-transparent">
+                    With Artificial Intelligence
+                </span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Hi, I'm <span class="text-white font-semibold">Sinmiloluwa Ayoola</span>. I bridge the gap between imagination and reality using cutting-edge AI video tools.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#work" class="bg-white text-black px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:scale-105 transition-transform shadow-xl">
+                    View My Work <i data-lucide="chevron-right" class="w-5 h-5"></i>
+                </a>
+                <div class="flex gap-4">
+                    <a href="https://www.linkedin.com/in/sinmiloluwa-ayoola-a366171b6" target="_blank" class="p-4 bg-slate-900 rounded-xl border border-slate-800 hover:border-purple-500 transition-all">
+                        <i data-lucide="linkedin" class="w-6 h-6"></i>
+                    </a>
+                    <a href="mailto:ayoola.sinmiloluwa@gmail.com" class="p-4 bg-slate-900 rounded-xl border border-slate-800 hover:border-purple-500 transition-all">
+                        <i data-lucide="mail" class="w-6 h-6"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="py-20 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Featured Projects.</h2>
+                <div class="h-1 w-20 bg-purple-600 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
+                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6 text-center flex flex-col items-center justify-center p-8 bg-gradient-to-br from-slate-800 to-slate-900">
+                        <div class="mb-4 p-4 bg-purple-600/20 rounded-full text-purple-400">
+                            <i data-lucide="smartphone" class="w-8 h-8"></i>
+                        </div>
+                        <p class="text-xs text-slate-400 mb-4 uppercase tracking-widest font-medium">AI Marketing / Parenting</p>
+                        <a href="https://drive.google.com/file/d/1ZilTtY8dDIKubJVrQJZNGdrBJfjrRrSp/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
+                            <i data-lucide="play" class="w-4 h-4 fill-current"></i> Watch Project
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">AI Avatar</span>
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">UGC Style</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">UGC Avatar Promotional Ad</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">A 15-second promotional talking head avatar created for a parenting app client.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">AI Video Production</span>
+                        <a href="https://drive.google.com/file/d/1ZilTtY8dDIKubJVrQJZNGdrBJfjrRrSp/view?usp=drive_link" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
+                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6">
+                        <iframe class="w-full h-full" src="https://drive.google.com/file/d/1yx0biHy4sMKMcgAGJ6Zo9xxLJ8FAoL5O/view?usp=sharing" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Commercial</span>
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">AI Gen</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">Bridgerton Themes AI Ad for a Dubai Event</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Fully Ai generated ad for a dubai bridgerton event in Dubai(Client Project)</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">E-commerce / Motion</span>
+                        <a href="https://drive.google.com/file/d/1yx0biHy4sMKMcgAGJ6Zo9xxLJ8FAoL5O/view?usp=sharing" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Project 3 -->
+                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
+                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/9WTM43c6L3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Commercial</span>
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">AI Gen</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">Posture Wear AI Ad</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Full AI-generated advertisement showcasing posture correction apparel.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">E-commerce / Motion</span>
+                        <a href="https://youtu.be/9WTM43c6L3M?si=m9A5GXjywHrrvoNl" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
+                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6 text-center flex flex-col items-center justify-center p-8 bg-gradient-to-br from-slate-800 to-slate-900">
+                        <div class="mb-4 p-4 bg-purple-600/20 rounded-full text-purple-400">
+                            <i data-lucide="smartphone" class="w-8 h-8"></i>
+                        </div>
+                        <p class="text-xs text-slate-400 mb-4 uppercase tracking-widest font-medium">Social Media / TikTok</p>
+                        <a href="https://www.tiktok.com/@sinmiloluwaayoola/video/7599790884586114325?is_from_webapp=1&sender_device=pc&web_id=7568517946055591440" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
+                            <i data-lucide="play" class="w-4 h-4 fill-current"></i> Watch Project
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Short Form</span>
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Tech Ed</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">Educative Tech Video</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">High-retention AI generated educational content optimized for vertical viewing.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">Vertical Content</span>
+                        <a href="https://www.tiktok.com/@sinmiloluwaayoola/video/7599790884586114325?is_from_webapp=1&sender_device=pc&web_id=7568517946055591440" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
+                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6 text-center flex flex-col items-center justify-center p-8 bg-gradient-to-br from-slate-800 to-slate-900">
+                        <div class="mb-4 p-4 bg-purple-600/20 rounded-full text-purple-400">
+                            <i data-lucide="monitor" class="w-8 h-8"></i>
+                        </div>
+                        <p class="text-xs text-slate-400 mb-4 uppercase tracking-widest font-medium">YouTube / Relaxation</p>
+                        <a href="https://drive.google.com/file/d/1lgOYMThP7DNGQY5lkZ2Ezbh9y6IQKLG1/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
+                            <i data-lucide="play" class="w-4 h-4 fill-current"></i> Watch Project
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Long Form</span>
+                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Ambient</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">YouTube Sleep Sample</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Atmospheric AI-generated content designed for the wellness and sleep niche.</p>
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">Upwork Client</span>
+                        <a href="https://drive.google.com/file/d/1lgOYMThP7DNGQY5lkZ2Ezbh9y6IQKLG1/view?usp=drive_link" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="py-20 border-y border-slate-900 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-black text-white mb-2 tracking-tighter">AI-Driven</div>
+                <div class="text-slate-500 text-sm uppercase tracking-widest">Efficiency</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black text-white mb-2 tracking-tighter">HD+</div>
+                <div class="text-slate-500 text-sm uppercase tracking-widest">Quality</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black text-white mb-2 tracking-tighter">48h</div>
+                <div class="text-slate-500 text-sm uppercase tracking-widest">Avg Delivery</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black text-white mb-2 tracking-tighter">100%</div>
+                <div class="text-slate-500 text-sm uppercase tracking-widest">AI Synthesis</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-20 bg-slate-950 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl md:text-6xl font-black mb-8 italic uppercase">Ready to go future?</h2>
+            <p class="text-slate-400 mb-12 max-w-lg mx-auto">
+                Let's collaborate on your next AI-generated advertisement, educational video, or brand campaign.
+            </p>
+            
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center mb-16">
+                <a href="mailto:ayoola.sinmiloluwa@gmail.com" class="group flex items-center gap-4 bg-slate-900 border border-slate-800 px-8 py-4 rounded-2xl hover:border-purple-500 transition-all">
+                    <i data-lucide="mail" class="text-purple-500 w-6 h-6"></i>
+                    <div class="text-left">
+                        <p class="text-xs text-slate-500 uppercase tracking-widest">Email Me</p>
+                        <p class="text-lg font-bold">ayoola.sinmiloluwa@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/sinmiloluwa-ayoola-a366171b6" target="_blank" class="group flex items-center gap-4 bg-slate-900 border border-slate-800 px-8 py-4 rounded-2xl hover:border-blue-500 transition-all">
+                    <i data-lucide="linkedin" class="text-blue-500 w-6 h-6"></i>
+                    <div class="text-left">
+                        <p class="text-xs text-slate-500 uppercase tracking-widest">Connect</p>
+                        <p class="text-lg font-bold">LinkedIn Profile</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="pt-12 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="text-sm text-slate-500 font-medium tracking-tighter uppercase">
+                    © 2024 SINMILOLUWA AYOOLA. AI VIDEO PORTFOLIO.
+                </div>
+                <div class="flex gap-6 text-slate-500 text-xs uppercase tracking-widest font-bold">
+                    Built with HTML & AI
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('glass', 'shadow-xl', 'py-4');
+                nav.classList.remove('py-6');
+            } else {
+                nav.classList.remove('glass', 'shadow-xl', 'py-4');
+                nav.classList.add('py-6');
+            }
+        });
+    </script>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -278,259 +550,4 @@
         });
     </script>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinmiloluwa Ayoola | AI Video Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        .glass {
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-        }
-
-        .animate-fade-in {
-            animation: fadeIn 1s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
-</head>
-<body class="bg-slate-950 text-slate-100 selection:bg-purple-500 selection:text-white">
-
-    <!-- Navigation -->
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6">
-        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
-            <div class="text-xl font-bold tracking-tighter bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-                SA.EDIT
-            </div>
-            <div class="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest">
-                <a href="#home" class="hover:text-purple-400 transition-colors">Home</a>
-                <a href="#work" class="hover:text-purple-400 transition-colors">Work</a>
-                <a href="#contact" class="hover:text-purple-400 transition-colors">Contact</a>
-            </div>
-            <a href="mailto:ayoola.sinmiloluwa@gmail.com" class="bg-purple-600 hover:bg-purple-700 px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-lg shadow-purple-500/20">
-                Hire Me
-            </a>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-purple-900/20 blur-[120px] rounded-full -z-10"></div>
-        <div class="max-w-6xl mx-auto px-6 text-center animate-fade-in">
-            <h1 class="text-5xl md:text-8xl font-black mb-6 tracking-tight">
-                Revolutionizing Video <br />
-                <span class="bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-500 bg-clip-text text-transparent">
-                    With Artificial Intelligence
-                </span>
-            </h1>
-            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-                Hi, I'm <span class="text-white font-semibold">Sinmiloluwa Ayoola</span>. I bridge the gap between imagination and reality using cutting-edge AI video tools.
-            </p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="#work" class="bg-white text-black px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:scale-105 transition-transform shadow-xl">
-                    View My Work <i data-lucide="chevron-right" class="w-5 h-5"></i>
-                </a>
-                <div class="flex gap-4">
-                    <a href="https://www.linkedin.com/in/sinmiloluwa-ayoola-a366171b6" target="_blank" class="p-4 bg-slate-900 rounded-xl border border-slate-800 hover:border-purple-500 transition-all">
-                        <i data-lucide="linkedin" class="w-6 h-6"></i>
-                    </a>
-                    <a href="mailto:ayoola.sinmiloluwa@gmail.com" class="p-4 bg-slate-900 rounded-xl border border-slate-800 hover:border-purple-500 transition-all">
-                        <i data-lucide="mail" class="w-6 h-6"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="work" class="py-20 bg-slate-950">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="mb-16">
-                <h2 class="text-3xl md:text-5xl font-bold mb-4">Featured Projects</h2>
-                <div class="h-1 w-20 bg-purple-600 rounded-full"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Project 1 -->
-                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
-                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6 text-center flex flex-col items-center justify-center p-8 bg-gradient-to-br from-slate-800 to-slate-900">
-                        <div class="mb-4 p-4 bg-purple-600/20 rounded-full text-purple-400">
-                            <i data-lucide="smartphone" class="w-8 h-8"></i>
-                        </div>
-                        <p class="text-xs text-slate-400 mb-4 uppercase tracking-widest font-medium">AI Marketing / Parenting</p>
-                        <a href="https://drive.google.com/file/d/1ZilTtY8dDIKubJVrQJZNGdrBJfjrRrSp/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
-                            <i data-lucide="play" class="w-4 h-4 fill-current"></i> Watch Project
-                        </a>
-                    </div>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">AI Avatar</span>
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">UGC Style</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">UGC Avatar Promotional Ad</h3>
-                    <p class="text-slate-400 leading-relaxed mb-6">A 15-second promotional talking head avatar created for a parenting app client.</p>
-                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
-                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">AI Video Production</span>
-                        <a href="https://drive.google.com/file/d/1ZilTtY8dDIKubJVrQJZNGdrBJfjrRrSp/view?usp=drive_link" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
-                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/9WTM43c6L3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Commercial</span>
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">AI Gen</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">Posture Wear AI Ad</h3>
-                    <p class="text-slate-400 leading-relaxed mb-6">Full AI-generated advertisement showcasing posture correction apparel.</p>
-                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
-                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">E-commerce / Motion</span>
-                        <a href="https://youtu.be/9WTM43c6L3M?si=m9A5GXjywHrrvoNl" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
-                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6 text-center flex flex-col items-center justify-center p-8 bg-gradient-to-br from-slate-800 to-slate-900">
-                        <div class="mb-4 p-4 bg-purple-600/20 rounded-full text-purple-400">
-                            <i data-lucide="smartphone" class="w-8 h-8"></i>
-                        </div>
-                        <p class="text-xs text-slate-400 mb-4 uppercase tracking-widest font-medium">Social Media / TikTok</p>
-                        <a href="https://www.tiktok.com/@sinmiloluwaayoola/video/7599790884586114325?is_from_webapp=1&sender_device=pc&web_id=7568517946055591440" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
-                            <i data-lucide="play" class="w-4 h-4 fill-current"></i> Watch Project
-                        </a>
-                    </div>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Short Form</span>
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Tech Ed</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">Educative Tech Video</h3>
-                    <p class="text-slate-400 leading-relaxed mb-6">High-retention AI generated educational content optimized for vertical viewing.</p>
-                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
-                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">Vertical Content</span>
-                        <a href="https://www.tiktok.com/@sinmiloluwaayoola/video/7599790884586114325?is_from_webapp=1&sender_device=pc&web_id=7568517946055591440" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="group bg-slate-900/50 rounded-3xl border border-slate-800 p-6 hover:border-purple-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-purple-500/10">
-                    <div class="relative aspect-video rounded-2xl overflow-hidden bg-slate-800 mb-6 text-center flex flex-col items-center justify-center p-8 bg-gradient-to-br from-slate-800 to-slate-900">
-                        <div class="mb-4 p-4 bg-purple-600/20 rounded-full text-purple-400">
-                            <i data-lucide="monitor" class="w-8 h-8"></i>
-                        </div>
-                        <p class="text-xs text-slate-400 mb-4 uppercase tracking-widest font-medium">YouTube / Relaxation</p>
-                        <a href="https://drive.google.com/file/d/1lgOYMThP7DNGQY5lkZ2Ezbh9y6IQKLG1/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-bold transition-all transform hover:scale-105">
-                            <i data-lucide="play" class="w-4 h-4 fill-current"></i> Watch Project
-                        </a>
-                    </div>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Long Form</span>
-                        <span class="text-[10px] uppercase tracking-tighter font-bold bg-slate-800 text-slate-400 px-3 py-1 rounded-md border border-slate-700">Ambient</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-2 group-hover:text-purple-400 transition-colors">YouTube Sleep Sample</h3>
-                    <p class="text-slate-400 leading-relaxed mb-6">Atmospheric AI-generated content designed for the wellness and sleep niche.</p>
-                    <div class="flex items-center justify-between pt-4 border-t border-slate-800">
-                        <span class="text-xs text-slate-500 font-medium tracking-widest uppercase">Upwork Client</span>
-                        <a href="https://drive.google.com/file/d/1lgOYMThP7DNGQY5lkZ2Ezbh9y6IQKLG1/view?usp=drive_link" target="_blank" class="text-purple-400 flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all">Link <i data-lucide="external-link" class="w-4 h-4"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats -->
-    <section class="py-20 border-y border-slate-900 bg-slate-950/50">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-                <div class="text-4xl font-black text-white mb-2 tracking-tighter">AI-Driven</div>
-                <div class="text-slate-500 text-sm uppercase tracking-widest">Efficiency</div>
-            </div>
-            <div>
-                <div class="text-4xl font-black text-white mb-2 tracking-tighter">HD+</div>
-                <div class="text-slate-500 text-sm uppercase tracking-widest">Quality</div>
-            </div>
-            <div>
-                <div class="text-4xl font-black text-white mb-2 tracking-tighter">48h</div>
-                <div class="text-slate-500 text-sm uppercase tracking-widest">Avg Delivery</div>
-            </div>
-            <div>
-                <div class="text-4xl font-black text-white mb-2 tracking-tighter">100%</div>
-                <div class="text-slate-500 text-sm uppercase tracking-widest">AI Synthesis</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact" class="py-20 bg-slate-950 text-center">
-        <div class="max-w-4xl mx-auto px-6">
-            <h2 class="text-4xl md:text-6xl font-black mb-8 italic uppercase">Ready to go future?</h2>
-            <p class="text-slate-400 mb-12 max-w-lg mx-auto">
-                Let's collaborate on your next AI-generated advertisement, educational video, or brand campaign.
-            </p>
-            
-            <div class="flex flex-col md:flex-row gap-6 justify-center items-center mb-16">
-                <a href="mailto:ayoola.sinmiloluwa@gmail.com" class="group flex items-center gap-4 bg-slate-900 border border-slate-800 px-8 py-4 rounded-2xl hover:border-purple-500 transition-all">
-                    <i data-lucide="mail" class="text-purple-500 w-6 h-6"></i>
-                    <div class="text-left">
-                        <p class="text-xs text-slate-500 uppercase tracking-widest">Email Me</p>
-                        <p class="text-lg font-bold">ayoola.sinmiloluwa@gmail.com</p>
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/in/sinmiloluwa-ayoola-a366171b6" target="_blank" class="group flex items-center gap-4 bg-slate-900 border border-slate-800 px-8 py-4 rounded-2xl hover:border-blue-500 transition-all">
-                    <i data-lucide="linkedin" class="text-blue-500 w-6 h-6"></i>
-                    <div class="text-left">
-                        <p class="text-xs text-slate-500 uppercase tracking-widest">Connect</p>
-                        <p class="text-lg font-bold">LinkedIn Profile</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="pt-12 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4">
-                <div class="text-sm text-slate-500 font-medium tracking-tighter uppercase">
-                    © 2024 SINMILOLUWA AYOOLA. AI VIDEO PORTFOLIO.
-                </div>
-                <div class="flex gap-6 text-slate-500 text-xs uppercase tracking-widest font-bold">
-                    Built with HTML & AI
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Initialize Lucide Icons
-        lucide.createIcons();
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const nav = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                nav.classList.add('glass', 'shadow-xl', 'py-4');
-                nav.classList.remove('py-6');
-            } else {
-                nav.classList.remove('glass', 'shadow-xl', 'py-4');
-                nav.classList.add('py-6');
-            }
-        });
-    </script>
-</body>
->>>>>>> f07609a11ae93c5598d65ac6ba05bbefdde66a0b
 </html>
